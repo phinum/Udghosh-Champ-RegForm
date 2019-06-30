@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="sign up.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="contact" action="" method="post">
+            <h3>Udghosh Champ</h3>
+            <h4>Your details goes below</h4>
+            <fieldset>
+                <input placeholder="Your Name" type="text" tabindex="1" autofocus id="name">
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your City" type="text" tabindex="2" id="city">
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="3" id="email">
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Phone Number" type="tel" tabindex="4" id="phone">
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Alternate Phone Number" type="tel" tabindex="5" id="altPhone">
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Age" type="tel" tabindex="6" id="age">
+            </fieldset>
+
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
